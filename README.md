@@ -1,0 +1,1 @@
+This is a repository to implement everything realted to the book Nature of Code available at https://natureofcode.com/
