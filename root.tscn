@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://wlrosnfqas1q"]
+[gd_scene load_steps=3 format=3 uid="uid://wlrosnfqas1q"]
+
+[ext_resource type="Texture2D" uid="uid://c11q0j15uaek7" path="res://icon.svg" id="1_nvryw"]
+[ext_resource type="Script" path="res://walker.gd" id="2_4c5lm"]
 
 [node name="root" type="Node"]
+
+[node name="Walker" type="Sprite2D" parent="."]
+texture = ExtResource("1_nvryw")
+script = ExtResource("2_4c5lm")
